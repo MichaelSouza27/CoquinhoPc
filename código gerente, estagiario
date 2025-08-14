@@ -1,0 +1,13 @@
+cargo = input("Digite o seu cargo(gerente, analista, estagiário): ")
+dia = input("Digite o dia da semana: ")
+
+
+if cargo == "gerente":
+    print("acesso permitido.")
+elif cargo == "analista" or cargo == "estagiário":
+    if dia == "segunda" or dia == "terça-" or dia == "quarta" or dia == "quinta" or dia == "sexta":
+        print("acesso permitido.")
+    else:
+        print("Acesso negado. Permitido apenas em dias úteis.")
+else:
+    print("Cargo não reconhecido. Acesso negado.")
