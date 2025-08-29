@@ -1,0 +1,6 @@
+site_3 = int(input("Digite o número de pessoas que clicaram no terceiro link ?: "))
+
+if 1<= site_3 >=1.000:
+    multiplicar = 4*site_3
+    print(multiplicar)
+    print("Acessos no primeiro link")
