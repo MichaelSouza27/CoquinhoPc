@@ -1,0 +1,14 @@
+pedidos = int(input("Qual valor do seu Pedido?"))
+dias = int(input("Quantos dias?"))
+
+
+
+if pedidos<100 or dias>7:
+    print("pedido normal")
+
+
+elif pedidos<=500 or dias>4 and dias<7:
+    print("Pedido Normal")
+   
+elif pedidos>=500 or dias<4:
+    print("Pedido Urgente!")
